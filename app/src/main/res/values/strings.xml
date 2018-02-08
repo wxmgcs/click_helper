@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">抢房助手</string>
+    <string name="sleepTime">请输入时间间隔</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="xLocation">x坐标</string>
+    <string name="yLocation">y坐标</string>
+</resources>

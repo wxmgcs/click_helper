@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/sleepTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sleepTime"
+        android:inputType="phone|number"
+        android:digits="1234567890"
+        />
+
+    <EditText
+        android:id="@+id/xLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/xLocation"
+        android:inputType="phone|number"
+        android:digits="1234567890"
+        />
+
+    <EditText
+        android:id="@+id/yLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/yLocation"
+        android:inputType="phone|number"
+        android:digits="1234567890"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        />
+
+    <Button
+        android:id="@+id/testClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击测试"
+        />
+
+</LinearLayout>
